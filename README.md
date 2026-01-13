@@ -28,9 +28,9 @@ This new app was inspired by my previous discontinued package [scrapR](https://g
 
 ## Citation
 
-If you use PDFy in your work, please cite:
+If you use pdf2plot in your work, please cite:
 
 ```
-Kucharski, A. (2026). PDFy: A web tool for extracting data from PDF figures.
-https://github.com/adamkucharski/pdfy
+Kucharski, A. (2026). pdf2plot: A web tool for extracting data from PDF figures.
+https://github.com/adamkucharski/pdf2plot
 ```
