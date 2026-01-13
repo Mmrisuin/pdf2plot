@@ -327,6 +327,37 @@
             margin-top: 15px;
         }
 
+        .step-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .step-header h2 {
+            margin: 0;
+        }
+
+        .sample-download-btn {
+            background: transparent;
+            color: #666;
+            border: 1px solid #ddd;
+            padding: 6px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 400;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .sample-download-btn:hover {
+            color: #2563eb;
+            border-color: #93c5fd;
+            background: #f8fafc;
+        }
+
         .data-preview {
             margin: 20px 0;
             max-height: 300px;
@@ -433,7 +464,10 @@
 
     <!-- Step 1: Upload -->
     <div id="step-upload" class="container">
-        <h2>Step 1: Upload PDF Figure</h2>
+        <div class="step-header">
+            <h2>Step 1: Upload PDF Figure</h2>
+            <button class="sample-download-btn" onclick="downloadSamplePDF()">Download Sample PDF</button>
+        </div>
         <div class="upload-area" id="upload-area">
             <p>Drag and drop a PDF file here, or click to select</p>
             <input type="file" id="file-input" accept=".pdf">
@@ -1636,6 +1670,15 @@
         function goBackToCalibrate() {
             document.getElementById('step-export').classList.add('hidden');
             document.getElementById('step-calibrate').classList.remove('hidden');
+        }
+
+        function downloadSamplePDF() {
+            const link = document.createElement('a');
+            link.href = 'data/figure1.pdf';
+            link.download = 'figure1.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
     </script>
 </body>
