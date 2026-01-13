@@ -1,4 +1,4 @@
-# PDFy
+# pdf2plot
 
 A web app to extract data from PDF figures. All processing happens in your browser - no data is uploaded to any server.
 
