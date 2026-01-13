@@ -11,6 +11,8 @@ A web app to extract data from PDF figures. All processing happens in your brows
 
 The app uses PDF.js to parse PDF files directly in the browser and extract vector path coordinates. It then applies linear (or logarithmic) interpolation based on your calibration points to convert the raw PDF coordinates to the actual data values.
 
+This new app was inspired by my previous discontinued package [scrapR](https://github.com/adamkucharski/scrapR/).
+
 ## Technical Details
 
 - Built with vanilla JavaScript (no frameworks)
@@ -26,9 +28,9 @@ The app uses PDF.js to parse PDF files directly in the browser and extract vecto
 
 ## Citation
 
-If you use PDFy in your research, please cite:
+If you use PDFy in your work, please cite:
 
 ```
-Kucharski, A. (2024). PDFy: A web tool for extracting data from PDF figures.
+Kucharski, A. (2026). PDFy: A web tool for extracting data from PDF figures.
 https://github.com/adamkucharski/pdfy
 ```
